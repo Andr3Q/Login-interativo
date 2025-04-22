@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Orbitron', sans-serif;
+  background-color: black;
+}
+
+#gameCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.login-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  background-color: rgba(20, 20, 20, 0.9);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px lime;
+  text-align: center;
+  color: lime;
+}
+
+.login-container input {
+  display: block;
+  width: 80%;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+}
+
+.login-container button {
+  padding: 10px 20px;
+  background-color: lime;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#score {
+  margin-top: 40px;
+  font-size: 30px;
+  color: rgb(11, 75, 11);
+}
